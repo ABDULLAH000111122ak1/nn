@@ -353,10 +353,4 @@ client.user.setGame(`To mind all the details.`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
-client.on('ready', () => {
-var x = client.channels.get("391253683792379909");
-if (x) x.join();
-}); 
-
-
 client.login(process.env.BOT_TOKEN);
